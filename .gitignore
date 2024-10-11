@@ -1,5 +1,5 @@
 # Ignore Terraform directories and state files
-*.terraform/  # Ignore the entire .terraform directory
+terraform/.terraform/  # Ignore the entire .terraform directory
 *.tfstate    # Ignore all state files
 *.tfstate.*  # Ignore backup state files (e.g., .tfstate.backup)
 *.tfvars     # Ignore any tfvars files (often used to store sensitive data)
